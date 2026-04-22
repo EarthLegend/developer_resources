@@ -1,10 +1,13 @@
 # LGND Developer Resources
 
+Getting Started Guide: [https://lgnd.ai/lgnd-docs (getting started guide)](url)
+API Documentation: [https://embeddings.api.lgnd.ai/v1/reference api reference](url)
+
+## Notebooks
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/EarthLegend/developer_resources/blob/main/LGND_API_Demo.ipynb)
 
 Example notebooks showing how to use the [LGND Embeddings API](https://embeddings.api.lgnd.ai) to search satellite imagery by text, visualize results on a map, and inspect chip metadata.
-
-## Notebooks
 
 | Notebook | Description |
 |---|---|
