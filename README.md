@@ -1,6 +1,7 @@
 # LGND Developer Resources
 
 Getting Started Guide: [https://lgnd.ai/lgnd-docs (getting started guide)](url)
+
 API Documentation: [https://embeddings.api.lgnd.ai/v1/reference api reference](url)
 
 ## Notebooks
