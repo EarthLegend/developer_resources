@@ -40,8 +40,6 @@ This repository features a `.mcp.example.json` with the setup needed for integra
 your code agent (e.g. Claude Code) with LGND's code assistant, which provides
 knowledge about the Embeddings API.
 
-(Please note that this feature may not be available to free users of the API.)
-
 Rename `.mcp.example.json` to `.mcp.json` and make sure to load and export your
 `LGND_API_KEY` before launching `claude`, i.e.:
 
