@@ -33,3 +33,26 @@ Or click the **Open in Colab** badge above to run in your browser with no local 
 | `LGND_API_KEY` | Your LGND API key (`sk_...`) |
 | `LGND_TENANT_ID` | Your tenant ID (`ten_...`) |
 | `LGND_COLLECTION_ID` | The collection to search (`col_...`) |
+
+## MCP for Code Assistant
+
+This repository features a `.mcp.example.json` with the setup needed for integrating
+your code agent (e.g. Claude Code) with LGND's code assistant, which provides
+knowledge about the Embeddings API.
+
+(Please note that this feature may not be available to free users of the API.)
+
+Rename `.mcp.example.json` to `.mcp.json` and make sure to load and export your
+`LGND_API_KEY` before launching `claude`, i.e.:
+
+```
+source .env
+export LGND_API_KEY
+claude
+```
+
+or copy the key into the file itself.
+
+The Code Assistant MCP will provide your code agent with detailed knowledge
+of the API endpoints, and can also help with general questions about how best to
+leverage the Embeddings API for your project.
