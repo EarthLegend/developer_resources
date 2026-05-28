@@ -15,7 +15,19 @@ export LGND_API_KEY=sk_...
 ./export_collection.sh <tenant_id> <collection_id>
 ```
 
-The script creates the export, prints the S3 path, and shows you how to check progress. Before your first export, you'll need to grant your IAM principal read access — see the one-time setup instructions in the script header.
+The script creates the export, prints the S3 path, and shows you how to check progress. Before your first export, you'll need to grant your IAM principal read access (see below).
+
+## S3 access
+
+LGND provisions a dedicated S3 bucket (`us-east-2` region) for each paid account, encrypted with a per-account KMS key. To read your exported data, tell the API which IAM principals should have access:
+
+```bash
+curl -X PUT -H "Authorization: Bearer $LGND_API_KEY" -H "Content-Type: application/json" \
+  -d '{"principal_arns": ["arn:aws:iam::123456789012:role/my-reader"]}' \
+  https://embeddings.api.lgnd.ai/v1/exports/destination/principals
+```
+
+LGND sets the S3 bucket policy and KMS key policy for you — your role doesn't need any IAM policy on its side. Access propagates within about a minute.
 
 ## Schema
 
