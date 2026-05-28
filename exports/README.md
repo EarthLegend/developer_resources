@@ -2,7 +2,7 @@
 
 Export your collection's embeddings data as [GeoParquet](https://geoparquet.org/) to your own S3 bucket. Each export is hive-partitioned by geohash, year, and month for efficient spatial and temporal queries. Data is encrypted at rest with a per-account KMS key — your IAM principals get read access through the API, no manual bucket policy editing required.
 
-This is the same data format used by the [LGND Clay Embeddings](https://source.coop/lgnd/clay-embeddings) open dataset on Source Cooperative.
+This is the same data format used by the [LGND Clay Embeddings](https://source.coop/clay/lgnd-clay-v1-5-sentinel-2-l2a) open dataset on Source Cooperative.
 
 ## Requirements
 
