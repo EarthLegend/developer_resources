@@ -11,3 +11,4 @@ API Documentation: [https://embeddings.api.lgnd.ai/v1/reference](https://embeddi
 | [demo/](demo/) | Interactive notebook showing text-based satellite imagery search |
 | [exports/](exports/) | Export collection data to GeoParquet in your own S3 bucket |
 | [coding-agent/](coding-agent/) | MCP integration for AI coding assistants |
+| [mcp/](mcp/) | Connect Claude and other AI assistants to LGND geospatial search via MCP |
