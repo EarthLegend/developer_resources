@@ -51,9 +51,9 @@ A typical session: the assistant lists your tenants → lists collections → ru
 ## Prerequisites
 
 1. **An LGND account** with access to the embeddings API.
-2. **MCP access enabled** on your account (the `allow_mcp_server` entitlement). If your
-   account doesn't have it yet, email [sales@lgnd.ai](mailto:sales@lgnd.ai)
-   or your account admin.
+2. **MCP access enabled** on your account. This requires the **Developer tier or
+   above**. If you're on a lower tier, contact [sales@lgnd.ai](mailto:sales@lgnd.ai)
+   or your account admin to upgrade.
 3. For command-line / IDE clients (Claude Code, Cursor): an **LGND API key**
    (`sk_live_…`), created in the [developer portal](https://developer.lgnd.ai).
    Web (claude.ai) clients don't need an API key — they sign in via your browser.
@@ -144,9 +144,9 @@ LGND sign-in page but authorization fails afterward, your account may be missing
 access — see the next item.
 
 **Tools appear but every call fails with "access denied" (403).**
-Your credential is valid but your account lacks the MCP entitlement
-(`allow_mcp_server`). Email [sales@lgnd.ai](mailto:sales@lgnd.ai) or your
-account admin to enable it.
+Your credential is valid but your account tier doesn't include MCP access — this
+requires the Developer tier or above. Contact [sales@lgnd.ai](mailto:sales@lgnd.ai)
+or your account admin to upgrade.
 
 **"Invalid token" / 401 on a CLI or IDE client.**
 Your API key is missing, expired, or malformed. Confirm the `Authorization: Bearer
