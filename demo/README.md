@@ -30,10 +30,10 @@ jupyter notebook
 ```
 
 Notebooks that call the LGND API read credentials from environment variables.
-Copy the template at the repo root and fill in your keys:
+From inside a notebook folder, copy the template at the repo root and fill in your keys:
 
 ```bash
-cp ../.env.example .env
+cp ../../.env.example .env
 ```
 
 See each notebook's own README for the variables it needs and whether it can run entirely from a bundled cache.

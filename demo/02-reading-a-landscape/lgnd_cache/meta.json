@@ -1,6 +1,4 @@
 {
-  "collection": "col_019f417c4eeb76528ed55c60ab998f97",
-  "index": "idx_019f5c0264187052ac586f17560b554d",
   "embedding_dims": 256,
   "n_chips": 23230,
   "n_cells": 667,
