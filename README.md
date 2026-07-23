@@ -8,8 +8,7 @@ API Documentation: [https://embeddings.api.lgnd.ai/v1/reference](https://embeddi
 
 | Directory | Description |
 |---|---|
-| [demo/](demo/) | Interactive notebook showing text-based satellite imagery search |
-| [demo/Research-Tier-Demo-Notebook/](demo/Research-Tier-Demo-Notebook/) | Forecast, map crops, and detect change from embeddings alone (cached or live API, Colab-ready) |
+| [demo/](demo/) | Runnable notebooks built on LGND embeddings — API quickstart, plus forecasting / crop mapping / change detection (cached, Colab-ready) |
 | [exports/](exports/) | Export collection data to GeoParquet in your own S3 bucket |
 | [coding-agent/](coding-agent/) | MCP integration for AI coding assistants |
 | [mcp/](mcp/) | Connect Claude and other AI assistants to LGND geospatial search via MCP |

@@ -1,6 +1,6 @@
 # Reading a Landscape with LGND Embeddings
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/EarthLegend/developer_resources/blob/main/demo/Research-Tier-Demo-Notebook/Research-Tier-Demo-Notebook.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/EarthLegend/developer_resources/blob/main/demo/02-reading-a-landscape/reading-a-landscape.ipynb)
 
 LGND turns satellite imagery into **embeddings**: for every place on the map, a compact
 list of numbers that captures what it looks like from space. This notebook shows those
@@ -22,7 +22,7 @@ data for you), or run it locally:
 
 ```bash
 pip install -r requirements.txt
-jupyter notebook Research-Tier-Demo-Notebook.ipynb
+jupyter notebook reading-a-landscape.ipynb
 ```
 
 **2. Live from the API (watch the embeddings arrive).** Set
@@ -32,7 +32,7 @@ forecasting section then pulls its embeddings straight from the LGND API, one
 `expand:["embedding"]`. Everything else keeps using the bundled dataset.
 
 On Colab, add your key with the key icon in the sidebar (Secrets) as `LGND_API_KEY`.
-Locally, put it in a `.env` file or type it when prompted.
+Locally, set the `LGND_API_KEY` environment variable or type it when prompted.
 
 ## What you will see
 
