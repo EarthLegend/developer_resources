@@ -1,4 +1,0 @@
-requests
-folium
-python-dotenv
-jupyter
