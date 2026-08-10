@@ -12,4 +12,4 @@ API Documentation: [https://embeddings.api.lgnd.ai/v1/reference](https://embeddi
 | [exports/](exports/) | Export collection data to GeoParquet in your own S3 bucket |
 | [mcp/](mcp/) | Connect Claude and other AI assistants to LGND geospatial search via MCP |
 | [breaking-changes/](breaking-changes/) | Migration guides for breaking changes |
-| [deprecated/](deprecated/) | Legacy features and integrations that are no longer actively maintained |
+| [deprecated/](deprecated/) | Legacy features and integrations that are no longer actively supported or maintained |
