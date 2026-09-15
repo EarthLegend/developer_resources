@@ -1,0 +1,19 @@
+# Config for the secret-scan workflow (.github/workflows/secret-scan.yml).
+#
+# We keep gitleaks' full built-in ruleset and only add path allowlists for demo
+# data that is binary or high-entropy by nature (cached embeddings, parquet,
+# thumbnails). Those paths hold no source code, so allowlisting them can't mask a
+# real key — it just removes future false positives. We deliberately do NOT
+# allowlist .env.example or the notebooks: a real key pasted there is exactly what
+# we want this scan to catch.
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Non-secret demo artifacts (cached data, not source)"
+paths = [
+  '''demo/.*/lgnd_cache/.*''',
+  '''.*\.parquet$''',
+  '''.*\.jpg$''',
+]
