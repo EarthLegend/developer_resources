@@ -10,6 +10,7 @@ More notebooks will be added here over time.
 |---|---|---|---|
 | 1 | [API Quickstart](01-api-quickstart/) | A tour of the LGND API: search by text and location, chip thumbnails and metadata, change detection, and creating a collection + index. | No, needs API credentials |
 | 2 | [Reading a Landscape](02-reading-a-landscape/) | Forecast next month's embedding, build a crop map, and detect year-over-year change over California farmland, using embeddings alone. | Yes, ships with a cached dataset |
+| 3 | [API Demo — October 2026](03-api-demo-october-2026/) | Search California for burn scars, find farmland that became homes, and have the API describe what changed. Set up for workshops: runs in Colab or locally with just an API key and collection ID from [developer.lgnd.ai](https://developer.lgnd.ai). | No, needs API credentials |
 
 Open any notebook in Google Colab straight from its README:
 
@@ -17,6 +18,7 @@ Open any notebook in Google Colab straight from its README:
 |---|---|---|
 | 1 | API Quickstart | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/EarthLegend/developer_resources/blob/main/demo/01-api-quickstart/LGND_API_Demo.ipynb) |
 | 2 | Reading a Landscape | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/EarthLegend/developer_resources/blob/main/demo/02-reading-a-landscape/reading-a-landscape.ipynb) |
+| 3 | API Demo — October 2026 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/EarthLegend/developer_resources/blob/main/demo/03-api-demo-october-2026/LGND_API_Demo_October_2026.ipynb) |
 
 ## Running locally
 
